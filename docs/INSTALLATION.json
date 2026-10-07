@@ -1,0 +1,124 @@
+{
+  "build_toolchain": {
+    "pip": "25.1.1",
+    "python": "3.11.13",
+    "setuptools": "80.9.0",
+    "wheel": "0.45.1"
+  },
+  "build_toolchain_python_is_not_runtime_qualification": true,
+  "declared_python_minimum": "3.10",
+  "demos": [
+    {
+      "exit_code": 0,
+      "finding_count": 0,
+      "fixture": "clean.csv",
+      "format": "csv",
+      "passed": true
+    },
+    {
+      "exit_code": 1,
+      "finding_count": 4,
+      "fixture": "leaky.csv",
+      "format": "csv",
+      "passed": true
+    },
+    {
+      "exit_code": 1,
+      "finding_count": 4,
+      "fixture": "leaky.json",
+      "format": "json",
+      "passed": true
+    }
+  ],
+  "installed_artifact": {
+    "byte_for_byte_reproducible_build_tested": false,
+    "filename": "temporal_leakage_auditor-0.1.0-py3-none-any.whl",
+    "sha256": "2c26af33f70b3852fc93ff3f34dd3f008a5189e8c692dc641eda2620940b05f3"
+  },
+  "installed_runtime": {
+    "clean_venv": true,
+    "package_under_venv": true,
+    "python": "3.14.7",
+    "version": "0.1.0"
+  },
+  "limitations": [
+    "Runtime behavior was verified on Python 3.14.7 only.",
+    "The wheel digest identifies the observed artifact; separate builds can differ because of archive timestamps.",
+    "Remote publication verification is pending."
+  ],
+  "no_dependencies_downloaded": true,
+  "offline_no_index": true,
+  "other_runtime_versions_tested": false,
+  "outcome": "pass",
+  "outside_source_tree_verified": true,
+  "package": "temporal-leakage-auditor",
+  "package_source_sha256": {
+    "pyproject.toml": "8704fda7d39bee6823c374754004dc4c35ec8ba5fa167ee27bfe41abf46e02ba",
+    "temporal_leakage_auditor/__init__.py": "e4a5243d6e82cfc7e09e0c9213b19492a04d0477058b0a425f0af7025d38907d",
+    "temporal_leakage_auditor/__main__.py": "7ac548c40192f4f7715d8e35db4540d94c7f1852fbf9f2aa82ee472f6842ee3c",
+    "temporal_leakage_auditor/cli.py": "12f6f90ebae9d2d8f4a792c10de26dc864b2b7182dc1cda4c2e1cefdbdd11d39",
+    "temporal_leakage_auditor/core.py": "24161cfa6a05bb0121c6c90d6911e1fc748923f59eb70229385a7ecf3c2a8a30",
+    "temporal_leakage_auditor/inputs.py": "e3f4b1bbe6869666f464847061620b077122e249972af4519b316fd9fe3c8992",
+    "temporal_leakage_auditor/reports.py": "821114a71d46bcf5abc715522b47a998efa166488ee162b749be61cbb9c7b130"
+  },
+  "package_version": "0.1.0",
+  "schema_version": 1,
+  "scope": "Existing local build tools, fresh local virtual environment, installed import and console-entry-point verification against original synthetic examples.",
+  "steps": [
+    {
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "name": "toolchain",
+      "passed": true
+    },
+    {
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "name": "build",
+      "passed": true
+    },
+    {
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "name": "venv",
+      "passed": true
+    },
+    {
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "name": "install",
+      "passed": true
+    },
+    {
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "name": "installed-identity",
+      "passed": true
+    },
+    {
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "name": "installed-version",
+      "passed": true
+    },
+    {
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "name": "demo-clean-csv",
+      "passed": true
+    },
+    {
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "name": "demo-leaky-csv",
+      "passed": true
+    },
+    {
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "name": "demo-leaky-json",
+      "passed": true
+    }
+  ],
+  "verification_date": "2026-10-07"
+}

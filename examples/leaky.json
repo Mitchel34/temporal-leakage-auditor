@@ -1,0 +1,38 @@
+[
+  {
+    "row_id": "train-a",
+    "observation_id": "shared-observation",
+    "entity_id": "entity-a",
+    "split": "train",
+    "prediction_time": "2025-01-14T00:00:00Z",
+    "feature_available_time": "2025-01-14T00:00:00.000001Z",
+    "label_end_time": "2025-01-15T00:00:00.000001Z"
+  },
+  {
+    "row_id": "train-b",
+    "observation_id": "observation-b",
+    "entity_id": "entity-b",
+    "split": "train",
+    "prediction_time": "2025-01-13T00:00:00Z",
+    "feature_available_time": "2025-01-13T00:00:00Z",
+    "label_end_time": "2025-01-14T00:00:00Z"
+  },
+  {
+    "row_id": "validation-a",
+    "observation_id": "shared-observation",
+    "entity_id": "entity-a",
+    "split": "validation",
+    "prediction_time": "2025-01-15T00:00:00Z",
+    "feature_available_time": "2025-01-15T00:00:00Z",
+    "label_end_time": "2025-01-16T00:00:00Z"
+  },
+  {
+    "row_id": "validation-b",
+    "observation_id": "observation-d",
+    "entity_id": "entity-b",
+    "split": "validation",
+    "prediction_time": "2025-01-16T00:00:00Z",
+    "feature_available_time": "2025-01-16T00:00:00Z",
+    "label_end_time": "2025-01-17T00:00:00Z"
+  }
+]

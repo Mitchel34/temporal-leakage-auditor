@@ -1,0 +1,565 @@
+{
+  "aggregate": {
+    "cross_split_duplicate": {
+      "eligible_units": 48,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tn": 42,
+      "tp": 6
+    },
+    "label_overlap": {
+      "eligible_units": 24,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tn": 21,
+      "tp": 3
+    },
+    "late_feature": {
+      "eligible_units": 48,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tn": 45,
+      "tp": 3
+    }
+  },
+  "checks": [
+    {
+      "name": "F01 exact ordered findings and unchanged input",
+      "passed": true
+    },
+    {
+      "name": "F02 exact ordered findings and unchanged input",
+      "passed": true
+    },
+    {
+      "name": "F03 exact ordered findings and unchanged input",
+      "passed": true
+    },
+    {
+      "name": "F04 exact ordered findings and unchanged input",
+      "passed": true
+    },
+    {
+      "name": "F05 exact ordered findings and unchanged input",
+      "passed": true
+    },
+    {
+      "name": "F06 exact ordered findings and unchanged input",
+      "passed": true
+    },
+    {
+      "name": "F07 exact ordered findings and unchanged input",
+      "passed": true
+    },
+    {
+      "name": "F08 exact ordered findings and unchanged input",
+      "passed": true
+    },
+    {
+      "name": "F09 exact ordered findings and unchanged input",
+      "passed": true
+    },
+    {
+      "name": "F10 exact ordered findings and unchanged input",
+      "passed": true
+    },
+    {
+      "name": "F11 exact ordered findings and unchanged input",
+      "passed": true
+    },
+    {
+      "name": "F12 exact ordered findings and unchanged input",
+      "passed": true
+    },
+    {
+      "name": "Aggregate declared truth and eligibility counts",
+      "passed": true
+    }
+  ],
+  "count_methods": {
+    "aggregate_tp_fp_fn_tn": "Returned by the measured evaluation; independently reconciled to the fixture counts in this report.",
+    "fixture_fn": "Derived as literal_positive_units minus measured tp.",
+    "fixture_tn": "Derived as eligible_units minus literal_positive_units minus measured fp.",
+    "fixture_tp_fp": "Measured by comparison of detector findings with independently declared literal truth.",
+    "precision": "tp / (tp + fp), or null when the denominator is zero.",
+    "recall": "tp / (tp + fn), or null when the denominator is zero.",
+    "unit": "fixture, rule, row_id"
+  },
+  "dataset": {
+    "fixture_count": 12,
+    "kind": "original_synthetic",
+    "row_count": 48,
+    "seed": 1729,
+    "truth_source": "evaluation/TRUTH.md"
+  },
+  "evaluated_bundle_sha256": "f4c475f10acd297f1087f093d649267e7f7bbab3c641dfcb8b2b78df8ebfda36",
+  "evaluation_date": "2026-10-07",
+  "fixtures": [
+    {
+      "fixture_id": "F01",
+      "rules": {
+        "cross_split_duplicate": {
+          "eligible_units": 4,
+          "fn": 0,
+          "fp": 0,
+          "literal_positive_units": 0,
+          "precision": null,
+          "recall": null,
+          "tn": 4,
+          "tp": 0
+        },
+        "label_overlap": {
+          "eligible_units": 2,
+          "fn": 0,
+          "fp": 0,
+          "literal_positive_units": 0,
+          "precision": null,
+          "recall": null,
+          "tn": 2,
+          "tp": 0
+        },
+        "late_feature": {
+          "eligible_units": 4,
+          "fn": 0,
+          "fp": 0,
+          "literal_positive_units": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tn": 3,
+          "tp": 1
+        }
+      }
+    },
+    {
+      "fixture_id": "F02",
+      "rules": {
+        "cross_split_duplicate": {
+          "eligible_units": 4,
+          "fn": 0,
+          "fp": 0,
+          "literal_positive_units": 0,
+          "precision": null,
+          "recall": null,
+          "tn": 4,
+          "tp": 0
+        },
+        "label_overlap": {
+          "eligible_units": 2,
+          "fn": 0,
+          "fp": 0,
+          "literal_positive_units": 0,
+          "precision": null,
+          "recall": null,
+          "tn": 2,
+          "tp": 0
+        },
+        "late_feature": {
+          "eligible_units": 4,
+          "fn": 0,
+          "fp": 0,
+          "literal_positive_units": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tn": 3,
+          "tp": 1
+        }
+      }
+    },
+    {
+      "fixture_id": "F03",
+      "rules": {
+        "cross_split_duplicate": {
+          "eligible_units": 4,
+          "fn": 0,
+          "fp": 0,
+          "literal_positive_units": 0,
+          "precision": null,
+          "recall": null,
+          "tn": 4,
+          "tp": 0
+        },
+        "label_overlap": {
+          "eligible_units": 2,
+          "fn": 0,
+          "fp": 0,
+          "literal_positive_units": 0,
+          "precision": null,
+          "recall": null,
+          "tn": 2,
+          "tp": 0
+        },
+        "late_feature": {
+          "eligible_units": 4,
+          "fn": 0,
+          "fp": 0,
+          "literal_positive_units": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tn": 3,
+          "tp": 1
+        }
+      }
+    },
+    {
+      "fixture_id": "F04",
+      "rules": {
+        "cross_split_duplicate": {
+          "eligible_units": 4,
+          "fn": 0,
+          "fp": 0,
+          "literal_positive_units": 0,
+          "precision": null,
+          "recall": null,
+          "tn": 4,
+          "tp": 0
+        },
+        "label_overlap": {
+          "eligible_units": 2,
+          "fn": 0,
+          "fp": 0,
+          "literal_positive_units": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tn": 1,
+          "tp": 1
+        },
+        "late_feature": {
+          "eligible_units": 4,
+          "fn": 0,
+          "fp": 0,
+          "literal_positive_units": 0,
+          "precision": null,
+          "recall": null,
+          "tn": 4,
+          "tp": 0
+        }
+      }
+    },
+    {
+      "fixture_id": "F05",
+      "rules": {
+        "cross_split_duplicate": {
+          "eligible_units": 4,
+          "fn": 0,
+          "fp": 0,
+          "literal_positive_units": 0,
+          "precision": null,
+          "recall": null,
+          "tn": 4,
+          "tp": 0
+        },
+        "label_overlap": {
+          "eligible_units": 2,
+          "fn": 0,
+          "fp": 0,
+          "literal_positive_units": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tn": 1,
+          "tp": 1
+        },
+        "late_feature": {
+          "eligible_units": 4,
+          "fn": 0,
+          "fp": 0,
+          "literal_positive_units": 0,
+          "precision": null,
+          "recall": null,
+          "tn": 4,
+          "tp": 0
+        }
+      }
+    },
+    {
+      "fixture_id": "F06",
+      "rules": {
+        "cross_split_duplicate": {
+          "eligible_units": 4,
+          "fn": 0,
+          "fp": 0,
+          "literal_positive_units": 0,
+          "precision": null,
+          "recall": null,
+          "tn": 4,
+          "tp": 0
+        },
+        "label_overlap": {
+          "eligible_units": 2,
+          "fn": 0,
+          "fp": 0,
+          "literal_positive_units": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tn": 1,
+          "tp": 1
+        },
+        "late_feature": {
+          "eligible_units": 4,
+          "fn": 0,
+          "fp": 0,
+          "literal_positive_units": 0,
+          "precision": null,
+          "recall": null,
+          "tn": 4,
+          "tp": 0
+        }
+      }
+    },
+    {
+      "fixture_id": "F07",
+      "rules": {
+        "cross_split_duplicate": {
+          "eligible_units": 4,
+          "fn": 0,
+          "fp": 0,
+          "literal_positive_units": 2,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tn": 2,
+          "tp": 2
+        },
+        "label_overlap": {
+          "eligible_units": 2,
+          "fn": 0,
+          "fp": 0,
+          "literal_positive_units": 0,
+          "precision": null,
+          "recall": null,
+          "tn": 2,
+          "tp": 0
+        },
+        "late_feature": {
+          "eligible_units": 4,
+          "fn": 0,
+          "fp": 0,
+          "literal_positive_units": 0,
+          "precision": null,
+          "recall": null,
+          "tn": 4,
+          "tp": 0
+        }
+      }
+    },
+    {
+      "fixture_id": "F08",
+      "rules": {
+        "cross_split_duplicate": {
+          "eligible_units": 4,
+          "fn": 0,
+          "fp": 0,
+          "literal_positive_units": 2,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tn": 2,
+          "tp": 2
+        },
+        "label_overlap": {
+          "eligible_units": 2,
+          "fn": 0,
+          "fp": 0,
+          "literal_positive_units": 0,
+          "precision": null,
+          "recall": null,
+          "tn": 2,
+          "tp": 0
+        },
+        "late_feature": {
+          "eligible_units": 4,
+          "fn": 0,
+          "fp": 0,
+          "literal_positive_units": 0,
+          "precision": null,
+          "recall": null,
+          "tn": 4,
+          "tp": 0
+        }
+      }
+    },
+    {
+      "fixture_id": "F09",
+      "rules": {
+        "cross_split_duplicate": {
+          "eligible_units": 4,
+          "fn": 0,
+          "fp": 0,
+          "literal_positive_units": 2,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tn": 2,
+          "tp": 2
+        },
+        "label_overlap": {
+          "eligible_units": 2,
+          "fn": 0,
+          "fp": 0,
+          "literal_positive_units": 0,
+          "precision": null,
+          "recall": null,
+          "tn": 2,
+          "tp": 0
+        },
+        "late_feature": {
+          "eligible_units": 4,
+          "fn": 0,
+          "fp": 0,
+          "literal_positive_units": 0,
+          "precision": null,
+          "recall": null,
+          "tn": 4,
+          "tp": 0
+        }
+      }
+    },
+    {
+      "fixture_id": "F10",
+      "rules": {
+        "cross_split_duplicate": {
+          "eligible_units": 4,
+          "fn": 0,
+          "fp": 0,
+          "literal_positive_units": 0,
+          "precision": null,
+          "recall": null,
+          "tn": 4,
+          "tp": 0
+        },
+        "label_overlap": {
+          "eligible_units": 2,
+          "fn": 0,
+          "fp": 0,
+          "literal_positive_units": 0,
+          "precision": null,
+          "recall": null,
+          "tn": 2,
+          "tp": 0
+        },
+        "late_feature": {
+          "eligible_units": 4,
+          "fn": 0,
+          "fp": 0,
+          "literal_positive_units": 0,
+          "precision": null,
+          "recall": null,
+          "tn": 4,
+          "tp": 0
+        }
+      }
+    },
+    {
+      "fixture_id": "F11",
+      "rules": {
+        "cross_split_duplicate": {
+          "eligible_units": 4,
+          "fn": 0,
+          "fp": 0,
+          "literal_positive_units": 0,
+          "precision": null,
+          "recall": null,
+          "tn": 4,
+          "tp": 0
+        },
+        "label_overlap": {
+          "eligible_units": 2,
+          "fn": 0,
+          "fp": 0,
+          "literal_positive_units": 0,
+          "precision": null,
+          "recall": null,
+          "tn": 2,
+          "tp": 0
+        },
+        "late_feature": {
+          "eligible_units": 4,
+          "fn": 0,
+          "fp": 0,
+          "literal_positive_units": 0,
+          "precision": null,
+          "recall": null,
+          "tn": 4,
+          "tp": 0
+        }
+      }
+    },
+    {
+      "fixture_id": "F12",
+      "rules": {
+        "cross_split_duplicate": {
+          "eligible_units": 4,
+          "fn": 0,
+          "fp": 0,
+          "literal_positive_units": 0,
+          "precision": null,
+          "recall": null,
+          "tn": 4,
+          "tp": 0
+        },
+        "label_overlap": {
+          "eligible_units": 2,
+          "fn": 0,
+          "fp": 0,
+          "literal_positive_units": 0,
+          "precision": null,
+          "recall": null,
+          "tn": 2,
+          "tp": 0
+        },
+        "late_feature": {
+          "eligible_units": 4,
+          "fn": 0,
+          "fp": 0,
+          "literal_positive_units": 0,
+          "precision": null,
+          "recall": null,
+          "tn": 4,
+          "tp": 0
+        }
+      }
+    }
+  ],
+  "limitations": [
+    "Twelve fixed, tiny synthetic cases check the declared predicates; they do not estimate real-world detection performance or model quality.",
+    "There is no repeated-run timing study or large-input scalability measurement.",
+    "Memory is the sum of process high-water marks, not simultaneous RSS; operational sampling is not hard memory containment.",
+    "The measured runtime is Python 3.14.7; the declared Python >=3.10 minimum is not a compatibility test result."
+  ],
+  "outcome": "pass",
+  "resources": {
+    "additional_external_services_used": false,
+    "compute_threads": 1,
+    "conservatively_charged_cpu_seconds": 10.0,
+    "cpu_method": "The full 10-second reservation was charged without refund. Observed child plus supervisor CPU excludes final receipt and database closeout; it is not a complete end-to-end measurement.",
+    "memory_bytes": 58261504,
+    "memory_hard_limit": false,
+    "memory_method": "sum_of_process_high_water_marks_conservative_not_simultaneous_rss",
+    "observed_cpu_before_final_closeout_seconds": 0.079592,
+    "observed_cpu_is_lower_bound": true,
+    "operational_memory_budget_bytes": 268435456,
+    "operational_wall_budget_seconds": 30,
+    "runner_wall_seconds": 0.09497600002214313,
+    "supervisor_threads": 1,
+    "wall_method": "Elapsed time from runner entry through direct-child termination accounting, including supervision but excluding final receipt and database closeout."
+  },
+  "returned_numeric_metric_count": 86,
+  "runner": {
+    "method": "Reviewed standard-library evaluation in one owned child process with local supervision; OS wait4 supplies direct-child CPU and high-water memory accounting.",
+    "name": "trusted-local-python-operational-v1",
+    "sha256": "fc2fe5a4ccb47ff0263ac74289966ac229f77cbd145002e0dbe75f24b42da4da"
+  },
+  "runtime": {
+    "machine": "arm64",
+    "os": "Darwin",
+    "python": "3.14.7"
+  },
+  "schema_version": 1,
+  "source_sha256": {
+    "evaluation/fixtures.py": "05d8b42453a9aab541dfa839f44dc1e2713349651b69b22ec880bd0aa0805de8",
+    "evaluation/protocol.py": "ff6264008915a555f0d65ae61ef6d54254f11fe7abc1b72192dbe9df48fe850f",
+    "temporal_leakage_auditor/core.py": "24161cfa6a05bb0121c6c90d6911e1fc748923f59eb70229385a7ecf3c2a8a30"
+  }
+}

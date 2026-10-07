@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "datasets": [
+    {
+      "id": "cli-demo",
+      "kind": "original_synthetic",
+      "paths": ["examples/clean.csv", "examples/leaky.csv", "examples/leaky.json"],
+      "source": "Invented identifiers and explicit UTC dates written for this project",
+      "private_or_external_records_used": false,
+      "external_license_required": false
+    },
+    {
+      "id": "twelve-fixture-protocol",
+      "kind": "original_synthetic",
+      "paths": ["evaluation/fixtures.py", "evaluation/TRUTH.md"],
+      "source": "Independently declared fixture truth with fixed integer timestamp offsets",
+      "seed": 1729,
+      "cases": 12,
+      "rows_per_case": 4,
+      "private_or_external_records_used": false,
+      "external_license_required": false,
+      "evaluation_status": "passed_twelve_fixed_synthetic_fixtures",
+      "evaluation_results": "evaluation/RESULTS.json"
+    }
+  ],
+  "note": "This provenance manifest is not a license grant."
+}

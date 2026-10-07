@@ -1,0 +1,5 @@
+row_id,observation_id,entity_id,split,prediction_time,feature_available_time,label_end_time
+train-a,shared-observation,entity-a,train,2025-01-14T00:00:00Z,2025-01-14T00:00:00.000001Z,2025-01-15T00:00:00.000001Z
+train-b,observation-b,entity-b,train,2025-01-13T00:00:00Z,2025-01-13T00:00:00Z,2025-01-14T00:00:00Z
+validation-a,shared-observation,entity-a,validation,2025-01-15T00:00:00Z,2025-01-15T00:00:00Z,2025-01-16T00:00:00Z
+validation-b,observation-d,entity-b,validation,2025-01-16T00:00:00Z,2025-01-16T00:00:00Z,2025-01-17T00:00:00Z

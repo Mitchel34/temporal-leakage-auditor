@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "temporal-leakage-auditor"
+version = "0.1.0"
+description = "Offline audits of declared temporal leakage in CSV and JSON splits"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+temporal-leakage-auditor = "temporal_leakage_auditor.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["temporal_leakage_auditor*"]
